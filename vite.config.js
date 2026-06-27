@@ -10,7 +10,7 @@ export default defineConfig({
     // The frontend calls `/api/v1/...` and Vite forwards it to localhost:5000.
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://confidentgoup-backend.onrender.com',
         changeOrigin: true,
       },
     },
